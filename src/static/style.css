@@ -1,0 +1,40 @@
+body {
+  padding: 25px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+section label {
+  font-weight: 700;
+}
+
+.--input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.--input label {
+  width: 20%;
+}
+
+.--input input {
+  width: 80%;
+  height: 20px;
+}
+
+button {
+  height: 50px;
+  text-transform: uppercase;
+}
